@@ -14,16 +14,21 @@
 
 <nav>
     <ul>
-        <li><a href="#" data-page="index">Página Inicial</a></li>
-        <li><a href="#" data-page="criar-conta">Crie uma Conta</a></li>
-        <li><a href="#" data-page="login">Login</a></li>
+        <li><a href="#" onclick="loadPage('index')">Página Inicial</a></li>
+        <li><a href="#" onclick="loadPage('criar-conta')">Crie uma Conta</a></li>
+        <li><a href="#" onclick="loadPage('login')">Login</a></li>
     </ul>
 </nav>
 
 <section id="content">
     <h2>Login</h2>
     <form id="login-form">
-        <!-- Seu formulário aqui -->
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" name="senha" required>
+
         <button type="button" onclick="fazerLogin()">Login</button>
     </form>
 </section>
