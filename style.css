@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #3498db; /* Azul */
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+nav {
+    background-color: #2980b9; /* Azul mais escuro */
+    color: #fff;
+    padding: 0.5em;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+section {
+    padding: 20px;
+}
+
+button {
+    background-color: #3498db; /* Azul */
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9; /* Azul mais escuro */
+}
