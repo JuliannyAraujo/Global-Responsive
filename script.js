@@ -27,3 +27,4 @@ function criarConta() {
 
 function fazerLogin() {
     alert('Login bem-sucedido!');
+}
